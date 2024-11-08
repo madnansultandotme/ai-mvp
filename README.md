@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Image Generator MVP
+
+This is a simple AI Image Generator MVP built with Next.js. It allows users to input prompts, such as "boat with sunset view" or "a boy sitting on car back," and generates images that correspond to the given prompt from a set of predefined images. The project uses the `public` directory to serve images locally.
+
+## Features
+- Input prompts and see corresponding images generated based on predefined matches.
+- Simple UI with a prompt input field and a button to generate images.
+- Images are displayed from the `public` directory based on the user’s input.
+
+## Prompts for Testing
+- **Boat with sunset view**
+- **A boy sitting on car back**
+- **A boy using virtual reality**
+- **Girl surfing in ocean**
+
+## Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://npmjs.com) or [Yarn](https://yarnpkg.com/) (Package managers)
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to get your project up and running locally:
 
+### 1. Clone the repository
+Clone this repository to your local machine using Git:
 ```bash
+git clone https://github.com/madnansultandotme/ai-mvp
+
+###2. Install dependencies
+Navigate to the project directory and install the required dependencies:
+```bash
+cd ai-mvp
+npm install
+###4. Run the development server
+Start the Next.js development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+###5.Open your browser
+Navigate to http://localhost:3000 in your browser. You should see the prompt input interface. Type in any of the prompts (e.g., "boat with sunset view") and click the "Generate Image" button to see the corresponding image from the public/images folder.
