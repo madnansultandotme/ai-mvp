@@ -8,10 +8,10 @@ This is a simple AI Image Generator MVP built with Next.js. It allows users to i
 - Images are displayed from the `public` directory based on the user’s input.
 
 ## Prompts for Testing
-- **Boat with sunset view**
-- **A boy sitting on car back**
-- **A boy using virtual reality**
-- **Girl surfing in ocean**
+- **boat with sunset view**
+- **a boy sitting on car back**
+- **a boy using virtual reality**
+- **a girl surfing in ocean**
 
 ## Prerequisites
 
