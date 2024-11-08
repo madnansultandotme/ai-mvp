@@ -1,11 +1,15 @@
-import Navbar from './components/Navbar';
-import PromptInput from './components/PromptInput';
-
-export default function Layout() {
+// app/layout.js
+import './globals.css';
+export default function RootLayout({ children }) {
   return (
-    <div>
-      <Navbar />
-      <PromptInput />
-    </div>
+    <html lang="en">
+      <head>
+        {/* Add meta tags, title, etc., here if needed */}
+      </head>
+      <body>
+        {/* Render the children components here */}
+        {children}
+      </body>
+    </html>
   );
 }
