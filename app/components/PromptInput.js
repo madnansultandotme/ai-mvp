@@ -9,7 +9,7 @@ export default function PromptInput() {
   const promptsAndImages = {
     "boat with sunset view": "/images/sunsetBoat.jpg", // Replace with actual image URLs
     "baby boy sitting on car back": "/images/boySittingOnback.jpg",
-    "a boy using virtaul reality": "/images/usingVirtualReality.jpg",
+    "a boy using virtual reality": "/images/usingVirtualReality.jpg",
     "a girl surfing in ocean": "/images/girlSurfing.jpg",
   };
 
