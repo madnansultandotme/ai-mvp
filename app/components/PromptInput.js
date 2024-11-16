@@ -8,7 +8,7 @@ export default function PromptInput() {
   // Object to store prompts and their virtual associated images
   const promptsAndImages = {
     "boat with sunset view": "/images/sunsetBoat.jpg", // Replace with actual image URLs
-    "a boy sitting on car back": "/images/boySittingOnback.jpg",
+    "baby boy sitting on car back": "/images/boySittingOnback.jpg",
     "a boy using virtaul reality": "/images/usingVirtualReality.jpg",
     "a girl surfing in ocean": "/images/girlSurfing.jpg",
   };
