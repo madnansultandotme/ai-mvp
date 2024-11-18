@@ -6,6 +6,8 @@ This is a simple AI Image Generator MVP built with Next.js. It allows users to i
 - Input prompts and see corresponding images generated based on predefined matches.
 - Simple UI with a prompt input field and a button to generate images.
 - Images are displayed from the `public` directory based on the user’s input.
+##Presentation Deck Link
+-[SharePoint](https://stdntpartners-my.sharepoint.com/:p:/g/personal/mabdullah_binaftab_studentambassadors_com/EabplnysrIFKtHP0z2XZTLUBr8iz0LJL-zsnyPdVbTVU2A?e=TdzyGS) 
 
 ## Prompts for Testing
 - **boat with sunset view**
